@@ -25,3 +25,45 @@ header a{
   text-decoration: none;
 }
 
+#inicio{
+  display: flex;
+  align-items: center; 
+  gap:32px;
+  padding: 24px 80px 128px 80px;
+  position: relative;
+}
+
+h1, h2{
+  font-weight: 600;
+  font-size:32px;
+  margin-bottom: 32px;
+}
+
+.paragrafoOne{
+  margin-bottom: 30px;
+  line-height: 32px;
+}
+
+.botao1{
+  text-decoration: none;
+  margin:15px
+}
+
+.botao1{
+ background-color: #ff725e;
+ border-radius: 8px;
+ color:#ffffff;
+ padding: 11px 23px; 
+}
+.botao{
+  color:#ff725e;
+}
+
+.absolute{
+  position:absolute;
+  bottom:0;
+  left:0;
+  width: 100%;
+  z-index: -10;
+}
+
