@@ -103,6 +103,50 @@ h1, h2{
 line-height: 32px;
 padding:32px 200px 32px 200px;
 }
-  
 
+/*Quarta section*/
+#duvidas{
+  display: flex;
+  align-items: center;
+}
 
+.duvidas{
+  position:relative
+}
+
+.duvidas h3{
+  border: 2px solid #ff725e;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  padding: 24px;
+  white-space: nowrap;
+}
+
+.duvidas img{
+  position: absolute;
+  top: 32;
+  right: 24px;
+}
+
+.duvida .paragrafoFour {
+  border-right: 1px solid#ff725e;
+  border-bottom: 1px solid#ff725e;
+  border-left: 1px solid#ff725e;
+  border-radius: 0 0 8px 8px;
+  margin-top: -8px;
+  padding: 0 24px;
+  text-align: justify;
+  max-width: 685px;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: .2s;
+}
+
+.duvida .paragrafo {
+  height: fit-content;
+  opacity: 1;
+  padding: 24px;
+}
